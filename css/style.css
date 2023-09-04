@@ -161,7 +161,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -210,7 +210,7 @@
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -232,11 +232,11 @@
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -246,7 +246,7 @@
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -260,7 +260,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -309,7 +309,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -329,11 +329,11 @@
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -343,7 +343,7 @@
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -357,7 +357,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -405,7 +405,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -454,7 +454,7 @@
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -476,11 +476,11 @@
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -490,7 +490,7 @@
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -504,7 +504,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -553,7 +553,7 @@
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -573,11 +573,11 @@
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -587,7 +587,7 @@
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -601,7 +601,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -918,7 +918,7 @@ button {
   clear: both;
 }
 .markdown-body {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
   font-size: 16px;
 }
 .markdown-body blockquote {
@@ -1022,7 +1022,7 @@ button {
 .markdown-body .h4,
 .markdown-body .h5,
 .markdown-body .h6 {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, sans-serif;
   color: var(--second-text-color);
   line-height: 1.5;
   margin-bottom: 1rem !important;
@@ -1210,7 +1210,7 @@ button {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1259,7 +1259,7 @@ button {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1281,11 +1281,11 @@ button {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -1295,7 +1295,7 @@ button {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -1309,7 +1309,7 @@ button {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1358,7 +1358,7 @@ button {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1378,11 +1378,11 @@ button {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -1392,7 +1392,7 @@ button {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -1406,7 +1406,7 @@ button {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -1464,10 +1464,10 @@ button {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --code-foreground: #bfbfc7;
+    --code-foreground: #fafafa;
     --code-background: #35363b;
     --highlight-background: #21252b;
-    --highlight-foreground: #bfbfc7;
+    --highlight-foreground: #fafafa;
     --highlight-keyword: #569cd6;
     --highlight-link: #569cd6;
     --highlight-built-in: #4ec9b0;
@@ -1509,10 +1509,10 @@ button {
   --highlight-deletion: #600;
 }
 .dark-mode {
-  --code-foreground: #bfbfc7;
+  --code-foreground: #fafafa;
   --code-background: #35363b;
   --highlight-background: #21252b;
-  --highlight-foreground: #bfbfc7;
+  --highlight-foreground: #fafafa;
   --highlight-keyword: #569cd6;
   --highlight-link: #569cd6;
   --highlight-built-in: #4ec9b0;
@@ -1886,7 +1886,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1935,7 +1935,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -1957,11 +1957,11 @@ pre .deletion {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -1971,7 +1971,7 @@ pre .deletion {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -1985,7 +1985,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2034,7 +2034,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2054,11 +2054,11 @@ pre .deletion {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -2068,7 +2068,7 @@ pre .deletion {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -2082,7 +2082,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2140,10 +2140,10 @@ pre .deletion {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --code-foreground: #bfbfc7;
+    --code-foreground: #fafafa;
     --code-background: #35363b;
     --highlight-background: #21252b;
-    --highlight-foreground: #bfbfc7;
+    --highlight-foreground: #fafafa;
     --highlight-keyword: #569cd6;
     --highlight-link: #569cd6;
     --highlight-built-in: #4ec9b0;
@@ -2185,10 +2185,10 @@ pre .deletion {
   --highlight-deletion: #600;
 }
 .dark-mode {
-  --code-foreground: #bfbfc7;
+  --code-foreground: #fafafa;
   --code-background: #35363b;
   --highlight-background: #21252b;
-  --highlight-foreground: #bfbfc7;
+  --highlight-foreground: #fafafa;
   --highlight-keyword: #569cd6;
   --highlight-link: #569cd6;
   --highlight-built-in: #4ec9b0;
@@ -2244,7 +2244,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2293,7 +2293,7 @@ pre .deletion {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2315,11 +2315,11 @@ pre .deletion {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -2329,7 +2329,7 @@ pre .deletion {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -2343,7 +2343,7 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2392,7 +2392,7 @@ pre .deletion {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2412,11 +2412,11 @@ pre .deletion {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -2426,7 +2426,7 @@ pre .deletion {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -2440,7 +2440,7 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2675,7 +2675,7 @@ html.is-animating .transition-fade {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2724,7 +2724,7 @@ html.is-animating .transition-fade {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2746,11 +2746,11 @@ html.is-animating .transition-fade {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -2760,7 +2760,7 @@ html.is-animating .transition-fade {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -2774,7 +2774,7 @@ html.is-animating .transition-fade {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -2823,7 +2823,7 @@ html.is-animating .transition-fade {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -2843,11 +2843,11 @@ html.is-animating .transition-fade {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -2857,7 +2857,7 @@ html.is-animating .transition-fade {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -2871,7 +2871,7 @@ html.is-animating .transition-fade {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3031,7 +3031,7 @@ html.is-animating .transition-fade {
   width: 100%;
   font-size: 0.92rem;
   box-sizing: border-box;
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
 }
 .post-toc-wrap .post-toc .toc-title {
   font-size: 0.8rem;
@@ -3231,7 +3231,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3280,7 +3280,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3302,11 +3302,11 @@ html.is-animating .swup-progress-icon {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -3316,7 +3316,7 @@ html.is-animating .swup-progress-icon {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -3330,7 +3330,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3379,7 +3379,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -3399,11 +3399,11 @@ html.is-animating .swup-progress-icon {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -3413,7 +3413,7 @@ html.is-animating .swup-progress-icon {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -3427,7 +3427,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -3445,7 +3445,7 @@ html.is-animating .swup-progress-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(120deg, rgba(240,209,220,0.502) 0%, rgba(219,209,240,0.502) 100%);
+  background: linear-gradient(120deg, rgba(255,255,255,0.502) 0%, rgba(255,255,255,0.502) 100%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(2px);
   padding-top: 2px;
@@ -3977,7 +3977,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4026,7 +4026,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4048,11 +4048,11 @@ html.is-animating .swup-progress-icon {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -4062,7 +4062,7 @@ html.is-animating .swup-progress-icon {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -4076,7 +4076,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4125,7 +4125,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4145,11 +4145,11 @@ html.is-animating .swup-progress-icon {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -4159,7 +4159,7 @@ html.is-animating .swup-progress-icon {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -4173,7 +4173,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4308,7 +4308,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4357,7 +4357,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4379,11 +4379,11 @@ html.is-animating .swup-progress-icon {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -4393,7 +4393,7 @@ html.is-animating .swup-progress-icon {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -4407,7 +4407,7 @@ html.is-animating .swup-progress-icon {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4456,7 +4456,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4476,11 +4476,11 @@ html.is-animating .swup-progress-icon {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -4490,7 +4490,7 @@ html.is-animating .swup-progress-icon {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -4504,7 +4504,7 @@ html.is-animating .swup-progress-icon {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -4895,7 +4895,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4944,7 +4944,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -4966,11 +4966,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -4980,7 +4980,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -4994,7 +4994,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5043,7 +5043,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5063,11 +5063,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -5077,7 +5077,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -5091,7 +5091,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5667,7 +5667,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5716,7 +5716,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5738,11 +5738,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -5752,7 +5752,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -5766,7 +5766,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -5815,7 +5815,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -5835,11 +5835,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -5849,7 +5849,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -5863,7 +5863,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6212,7 +6212,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6261,7 +6261,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6283,11 +6283,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -6297,7 +6297,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -6311,7 +6311,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6360,7 +6360,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6380,11 +6380,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -6394,7 +6394,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -6408,7 +6408,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6489,7 +6489,7 @@ center {
   }
 }
 .article-copyright-info-container {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -6553,7 +6553,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6602,7 +6602,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6624,11 +6624,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -6638,7 +6638,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -6652,7 +6652,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6701,7 +6701,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -6721,11 +6721,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -6735,7 +6735,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -6749,7 +6749,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -6887,7 +6887,7 @@ center {
   font-size: 1.4rem;
   line-height: 1.5;
   color: var(--second-text-color);
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   margin: 0;
 }
 @media (max-width: 780px) {
@@ -6999,7 +6999,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7048,7 +7048,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7070,11 +7070,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -7084,7 +7084,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -7098,7 +7098,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7147,7 +7147,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7167,11 +7167,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -7181,7 +7181,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -7195,7 +7195,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7457,7 +7457,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7506,7 +7506,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7528,11 +7528,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -7542,7 +7542,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -7556,7 +7556,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7605,7 +7605,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -7625,11 +7625,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -7639,7 +7639,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -7653,7 +7653,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -7789,7 +7789,7 @@ center {
   margin: 0px 0 30px 0;
   line-height: 1.4;
   color: var(--second-text-color);
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
 }
 .post-page-container .article-content-container .article-title .article-title-cover {
   display: flex;
@@ -7800,7 +7800,7 @@ center {
   bottom: 36px;
   left: 0;
   text-align: center;
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   color: var(--second-text-color);
   font-size: 3.2rem;
   font-weight: 700;
@@ -7824,7 +7824,7 @@ center {
   }
 }
 .post-page-container .article-content-container .article-header {
-  font-family: 'Satoshi-Variable', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans', 'Noto Sans SC', sans-serif;
   position: relative;
   padding-left: 46px;
   width: 100%;
@@ -8210,7 +8210,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8259,7 +8259,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8281,11 +8281,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -8295,7 +8295,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -8309,7 +8309,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -8358,7 +8358,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8378,11 +8378,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -8392,7 +8392,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -8406,7 +8406,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -8508,7 +8508,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8557,7 +8557,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8579,11 +8579,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -8593,7 +8593,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -8607,7 +8607,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -8656,7 +8656,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8676,11 +8676,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -8690,7 +8690,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -8704,7 +8704,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -8947,7 +8947,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -8996,7 +8996,7 @@ center {
     --note-type-title-bg: #fdf3e9;
     --note-black-title-bg: #e9e9e9;
     --note-purple-title-bg: #f9e9fd;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/ace.png");
     --home-banner-text-color: #fff;
     --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
     --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -9018,11 +9018,11 @@ center {
     --third-background-color: #292b2f;
     --third-background-color-transparent: rgba(32,33,36,0.6);
     --primary-color: #d14f64;
-    --first-text-color: #d2d2d7;
-    --second-text-color: #cbcbd1;
-    --third-text-color: #9595a2;
-    --fourth-text-color: #242429;
-    --default-text-color: #bebec6;
+    --first-text-color: #fbfbfb;
+    --second-text-color: #fbfbfb;
+    --third-text-color: #c8c8c8;
+    --fourth-text-color: #323232;
+    --default-text-color: #fafafa;
     --invert-text-color: #373d3f;
     --border-color: rgba(255,255,255,0.08);
     --selection-color: #d66173;
@@ -9032,7 +9032,7 @@ center {
     --scrollbar-color: #898989;
     --scrollbar-color-hover: #a1a1a1;
     --scroll-bar-bg-color: #2a2c30;
-    --link-color: #c5c5cc;
+    --link-color: #fbfbfb;
     --copyright-info-color: #a30029;
     --avatar-background-color: #005cb8;
     --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -9046,7 +9046,7 @@ center {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("/images/main.jpg");
+    --home-banner-img: url("/images/flag.jpg");
     --home-banner-text-color: #d1d1b6;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
@@ -9095,7 +9095,7 @@ center {
   --note-type-title-bg: #fdf3e9;
   --note-black-title-bg: #e9e9e9;
   --note-purple-title-bg: #f9e9fd;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/ace.png");
   --home-banner-text-color: #fff;
   --home-banner-icons-container-border-color: rgba(255,255,255,0.35);
   --home-banner-icons-container-background-color: rgba(255,255,255,0.3);
@@ -9115,11 +9115,11 @@ center {
   --third-background-color: #292b2f;
   --third-background-color-transparent: rgba(32,33,36,0.6);
   --primary-color: #d14f64;
-  --first-text-color: #d2d2d7;
-  --second-text-color: #cbcbd1;
-  --third-text-color: #9595a2;
-  --fourth-text-color: #242429;
-  --default-text-color: #bebec6;
+  --first-text-color: #fbfbfb;
+  --second-text-color: #fbfbfb;
+  --third-text-color: #c8c8c8;
+  --fourth-text-color: #323232;
+  --default-text-color: #fafafa;
   --invert-text-color: #373d3f;
   --border-color: rgba(255,255,255,0.08);
   --selection-color: #d66173;
@@ -9129,7 +9129,7 @@ center {
   --scrollbar-color: #898989;
   --scrollbar-color-hover: #a1a1a1;
   --scroll-bar-bg-color: #2a2c30;
-  --link-color: #c5c5cc;
+  --link-color: #fbfbfb;
   --copyright-info-color: #a30029;
   --avatar-background-color: #005cb8;
   --pjax-progress-bar-color: linear-gradient(45deg, #ea404a, #ea722f, #e9a71f, #67e559, #18ecec, #1b85f1, #ee1dee);
@@ -9143,7 +9143,7 @@ center {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("/images/main.jpg");
+  --home-banner-img: url("/images/flag.jpg");
   --home-banner-text-color: #d1d1b6;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
