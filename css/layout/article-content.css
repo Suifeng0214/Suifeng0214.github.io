@@ -332,7 +332,7 @@
   }
 }
 .post-page-container .article-content-container .article-title .article-title-regular {
-  font-size: 3.2rem;
+  font-size: 27px;
   font-weight: 700;
   margin: 0px 0 30px 0;
   line-height: 1.4;
@@ -350,7 +350,7 @@
   text-align: center;
   font-family: 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif, 'Noto Sans SC', sans-serif;
   color: var(--second-text-color);
-  font-size: 3.2rem;
+  font-size: 27px;
   font-weight: 700;
   background-color: var(--background-color-transparent);
   backdrop-filter: blur(10px);
@@ -360,13 +360,13 @@
 }
 @media (max-width: 780px) {
   .post-page-container .article-content-container .article-title .article-title-cover {
-    font-size: 2.56rem;
+    font-size: 21.6px;
     bottom: 28.8px;
   }
 }
 @media (max-width: 500px) {
   .post-page-container .article-content-container .article-title .article-title-cover {
-    font-size: 1.92rem;
+    font-size: 16.2px;
     bottom: 21.599999999999998px;
     border-radius: 14px;
   }
