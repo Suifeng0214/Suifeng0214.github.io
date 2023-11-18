@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://suifeng0214.github.io/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,28 +84,28 @@
   
   <url>
     <loc>https://suifeng0214.github.io/tags/SNMG/</loc>
-    <lastmod>2023-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://suifeng0214.github.io/tags/pip-crash/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suifeng0214.github.io/tags/Power-Shell/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suifeng0214.github.io/tags/hexo/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suifeng0214.github.io/tags/pip-crash/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -114,14 +114,14 @@
   
   <url>
     <loc>https://suifeng0214.github.io/categories/%E6%97%A5%E5%B8%B8%E7%B4%80%E9%8C%84/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://suifeng0214.github.io/categories/%E5%90%84%E7%A8%AE%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
