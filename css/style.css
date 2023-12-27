@@ -1125,7 +1125,6 @@ button {
   border-radius: 14px;
   max-width: 100%;
   cursor: zoom-in;
-  display: block;
   transition-property: color, background, box-shadow, border-color, padding, margin;
   transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
   transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
