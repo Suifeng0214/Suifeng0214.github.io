@@ -14,23 +14,30 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://suifeng0214.github.io/2023/10/19/certify-the-web-windows-ca/"/>
+    <link rel="canonical" href="https://suifeng0214.github.io/2024/02/09/linerangersrunningracetutorial/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="今天要在 Windows IIS 上簽 CA 所以認識了這個簡單好用的工具 Certify The Web 紀錄一下owo這是一款可以自動更新憑證，而且免費版也可以管理一些憑證，申請到的憑證還會自動匯入 IIS 的好東西基本上可以無腦點一點就有憑證用了🥳 Ref:https:&#x2F;&#x2F;abstreamace.com&#x2F;sglab&#x2F;2020&#x2F;05&#x2F;25&#x2F;%E6%9B%BF-iis-%E5%8F%96%E5">
+        <meta name="description" content="本篇內容完全原創，著作權由 隨風 享有，侵害必究。免責聲明本攻略僅基於作者個人遊戲經驗提供，並不擔保其準確性、完整性或適用性。讀者應自行判斷並核實攻略中的內容，並自負風險進行遊戲。有任何錯誤或改進建議歡迎聯繫我，鼓勵大家自己多嘗試才會有成就感～ 示範影片 2024 2月跑跑 木屬 830m (下面圖片二樓)    隊伍與成績參考   裝備就不展示了，原則上用到的都是下文教的，只有少數七星裝而已。如">
 <meta property="og:type" content="article">
-<meta property="og:title" content="免費 Windows CA 自動化工具 – Certify The Web">
-<meta property="og:url" content="https://suifeng0214.github.io/2023/10/19/Certify-The-Web-Windows-CA/">
+<meta property="og:title" content="【攻略】Line Rangers 跑跑活動關卡懶人包 | 新手必看教學 | 高分技巧分享">
+<meta property="og:url" content="https://suifeng0214.github.io/2024/02/09/LineRangersRunningRaceTutorial/">
 <meta property="og:site_name" content="Suifeng0214&#39;s Blog">
-<meta property="og:description" content="今天要在 Windows IIS 上簽 CA 所以認識了這個簡單好用的工具 Certify The Web 紀錄一下owo這是一款可以自動更新憑證，而且免費版也可以管理一些憑證，申請到的憑證還會自動匯入 IIS 的好東西基本上可以無腦點一點就有憑證用了🥳 Ref:https:&#x2F;&#x2F;abstreamace.com&#x2F;sglab&#x2F;2020&#x2F;05&#x2F;25&#x2F;%E6%9B%BF-iis-%E5%8F%96%E5">
+<meta property="og:description" content="本篇內容完全原創，著作權由 隨風 享有，侵害必究。免責聲明本攻略僅基於作者個人遊戲經驗提供，並不擔保其準確性、完整性或適用性。讀者應自行判斷並核實攻略中的內容，並自負風險進行遊戲。有任何錯誤或改進建議歡迎聯繫我，鼓勵大家自己多嘗試才會有成就感～ 示範影片 2024 2月跑跑 木屬 830m (下面圖片二樓)    隊伍與成績參考   裝備就不展示了，原則上用到的都是下文教的，只有少數七星裝而已。如">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-10-19T13:44:00.000Z">
-<meta property="article:modified_time" content="2024-02-03T07:42:14.588Z">
+<meta property="og:image" content="https://suifeng0214.github.io/images/LR03.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/LR02.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/LR01.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/LR00.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/LR04.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/LR05.png">
+<meta property="article:published_time" content="2024-02-08T19:50:00.000Z">
+<meta property="article:modified_time" content="2024-02-08T21:37:52.520Z">
 <meta property="article:author" content="Suifeng0214">
-<meta property="article:tag" content="SNMG">
+<meta property="article:tag" content="Line Rangers">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://suifeng0214.github.io/images/LR03.png">
     
     
     <!--- Icon Part-->
@@ -42,7 +49,7 @@
     
     <title>
         
-            免費 Windows CA 自動化工具 – Certify The Web |
+            【攻略】Line Rangers 跑跑活動關卡懶人包 | 新手必看教學 | 高分技巧分享 |
         
         Suifeng0214&#39;s Blog
     </title>
@@ -328,7 +335,7 @@
 
         <div class="article-title">
             
-                <h1 class="article-title-regular">免費 Windows CA 自動化工具 – Certify The Web</h1>
+                <h1 class="article-title-regular">【攻略】Line Rangers 跑跑活動關卡懶人包 | 新手必看教學 | 高分技巧分享</h1>
             
             </div>
             
@@ -350,35 +357,19 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2023-10-19 21:44</span>
-        <span class="mobile">2023-10-19 21:44</span>
+        <span class="desktop">2024-02-09 03:50</span>
+        <span class="mobile">2024-02-09 03:50</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-02-03 15:42:14</span>
-            <span class="mobile">2024-02-03 15:42:14</span>
+            <span class="desktop">2024-02-09 05:37:52</span>
+            <span class="mobile">2024-02-09 05:37:52</span>
             <span class="hover-info">Updated</span>
         </span>
     
 
-    
-        <span class="article-categories article-meta-item">
-            <i class="fa-regular fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/%E6%97%A5%E5%B8%B8%E7%B4%80%E9%8C%84/">日常紀錄</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
     
     
         <span class="article-tags article-meta-item">
@@ -386,7 +377,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/SNMG/">SNMG</a>&nbsp;
+                        <a href="/tags/Line-Rangers/">Line Rangers</a>&nbsp;
                     </li>
                 
             </ul>
@@ -405,8 +396,152 @@
         
 
         <div class="article-content markdown-body">
-            <p>今天要在 Windows IIS 上簽 CA 所以認識了這個簡單好用的工具 <strong>Certify The Web</strong> 紀錄一下owo<br>這是一款可以自動更新憑證，而且免費版也可以管理一些憑證，申請到的憑證還會自動匯入 IIS 的好東西<br>基本上可以無腦點一點就有憑證用了🥳</p>
-<p>Ref:<br><a class="link"   target="_blank" rel="noopener" href="https://abstreamace.com/sglab/2020/05/25/%E6%9B%BF-iis-%E5%8F%96%E5%BE%97%E5%85%8D%E8%B2%BB-ssl-%E6%86%91%E8%AD%89%EF%BC%88%E4%BD%BF%E7%94%A8-certify-the-web%EF%BC%89/" >https://abstreamace.com/sglab/2020/05/25/%E6%9B%BF-iis-%E5%8F%96%E5%BE%97%E5%85%8D%E8%B2%BB-ssl-%E6%86%91%E8%AD%89%EF%BC%88%E4%BD%BF%E7%94%A8-certify-the-web%EF%BC%89/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+            <h5 id="本篇內容完全原創，著作權由-隨風-享有，侵害必究。"><a href="#本篇內容完全原創，著作權由-隨風-享有，侵害必究。" class="headerlink" title="本篇內容完全原創，著作權由 隨風 享有，侵害必究。"></a>本篇內容完全原創，著作權由 <a href="/about/">隨風</a> 享有，侵害必究。</h5><h2 id="免責聲明"><a href="#免責聲明" class="headerlink" title="免責聲明"></a>免責聲明</h2><p>本攻略僅基於作者個人遊戲經驗提供，並不擔保其準確性、完整性或適用性。讀者應自行判斷並核實攻略中的內容，並自負風險進行遊戲。有任何錯誤或改進建議歡迎聯繫我，鼓勵大家自己多嘗試才會有成就感～</p>
+<h2 id="示範影片"><a href="#示範影片" class="headerlink" title="示範影片"></a>示範影片</h2><blockquote>
+<p>2024 2月跑跑 木屬 830m (下面圖片二樓)</p>
+</blockquote>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u-nCtiuwzu8?si=HgfSJfsyT19H_sBb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2 id="隊伍與成績參考"><a href="#隊伍與成績參考" class="headerlink" title="隊伍與成績參考"></a>隊伍與成績參考</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/LR03.png"
+                      width="450"
+                > <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/LR02.png"
+                      width="450"
+                ><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/LR01.png"
+                      width="450"
+                > <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/LR00.png"
+                      width="450"
+                ><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/LR04.png"
+                      width="450"
+                > <img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/LR05.png"
+                      width="450"
+                ><br>裝備就不展示了，原則上用到的都是下文教的，只有少數七星裝而已。<br>如果看完這樓的火力展示讓你覺得很扯，那恭喜你來對地方了，希望你看完以後收穫滿滿～<br>如果有因此受益的玩家歡迎將成績突飛猛進的喜悅分享給我知道喔～這會是最好的答謝方式 XD</p>
+<h2 id="先備觀念"><a href="#先備觀念" class="headerlink" title="先備觀念"></a>先備觀念</h2><h3 id="屬性（非常重要！）"><a href="#屬性（非常重要！）" class="headerlink" title="屬性（非常重要！）"></a>屬性（非常重要！）</h3><p>跑跑活動關卡每個月都會有特定屬性，水／火／木，用對屬性才能有效爆塔與扛塔喔！<br>在跑跑的世界，屬性相剋的平民角帶來的效益比光暗神角來的優喔！</p>
+<h3 id="難度加乘"><a href="#難度加乘" class="headerlink" title="難度加乘"></a>難度加乘</h3><p>跑跑分為三種難度，在分數計算上有不同倍數算法 簡單(x1)／普通(x5)／困難(x10)</p>
+<h3 id="當月增益"><a href="#當月增益" class="headerlink" title="當月增益"></a>當月增益</h3><p>每放一隻上場最後總分會加一成，一場 500m 困難計算的話：<br>放一隻增益寵： 500(距離)*10(難度加成)*1.1&#x3D;5500<br>放兩隻增益寵： 500(距離)*10(難度加成)*1.2&#x3D;6000<br>以此類推..</p>
+<h3 id="Ranger-功能定位"><a href="#Ranger-功能定位" class="headerlink" title="Ranger 功能定位"></a>Ranger 功能定位</h3><p>整場跑跑活動關卡玩下來，我們給那些負責特定功能的 Ranger 一個角色定位，方便下文引用：</p>
+<ul>
+<li>坦克（扛塔傷）</li>
+<li>清怪（範圍攻擊）</li>
+<li>破塔（剋屬智寵）</li>
+<li>輔助（加速無敵等..）</li>
+</ul>
+<h3 id="智慧寵爆塔"><a href="#智慧寵爆塔" class="headerlink" title="智慧寵爆塔"></a>智慧寵爆塔</h3><p>其實我不知道具體如何，不過大家自己實測就懂了，智寵對塔傷害的貢獻明顯高於力敏寵。<br>⟹ 就算是很強的力敏寵也不一定要上場，視隊伍需求。</p>
+<ul>
+<li>雖說用智寵爆塔，但也千萬不要用非剋屬的智寵<br>⟹ 平民八星 140 剋屬 ≥ 九星 180 非剋屬<br>（而且通常有好角色也是拿去PVP公會戰，用對屬性就不用硬要為了跑跑換裝備結果還跑不好，省麻煩也省心）</li>
+</ul>
+<h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><blockquote>
+<p><strong>疊寵、技能密集度、出寵流暢度、道具時機</strong></p>
+</blockquote>
+<h2 id="高分技巧"><a href="#高分技巧" class="headerlink" title="高分技巧"></a>高分技巧</h2><h3 id="角色不一定要放滿"><a href="#角色不一定要放滿" class="headerlink" title="角色不一定要放滿"></a>角色不一定要放滿</h3><p>如果真的沒有<strong>適合</strong>的角色，那寧願空著也不要亂放其他角色，原因有以下：</p>
+<ul>
+<li>占用召喚欄位，卡到其他關鍵寵的召喚速度。</li>
+<li>浪費礦物，礦物很重要，直接影響到出寵流暢度，平民裝基本上靠鞋子減礦，不太夠。</li>
+</ul>
+<h3 id="選角比例"><a href="#選角比例" class="headerlink" title="選角比例"></a>選角比例</h3><p>簡單來說就是要平衡各種功能角數量，讓跑起來可以 <strong>更流暢</strong>。<br>舉例來說，不可能全部放加速角不放破塔智寵對吧？<br>跑跑非常分秒必爭，所以只要某個技能發動慢了都是損失。</p>
+<p>尤其是開場，最好可以開場五隻抽到加速、破塔、清怪角，先把節奏快速帶起來。</p>
+<h3 id="Ranger-技能選用順位"><a href="#Ranger-技能選用順位" class="headerlink" title="Ranger 技能選用順位"></a>Ranger 技能選用順位</h3><table>
+<thead>
+<tr>
+<th align="center">技能順位</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">第一順位</td>
+<td>加速</td>
+<td>無敵</td>
+</tr>
+<tr>
+<td align="center">第二順位</td>
+<td>增攻</td>
+<td>範圍攻擊</td>
+</tr>
+<tr>
+<td align="center">第三順位</td>
+<td>倍體</td>
+<td>回血</td>
+</tr>
+</tbody></table>
+<ul>
+<li>同一隻 Ranger 同時擁有越多高順位技能越好！</li>
+<li>技能都是範圍越大、持續時間越久越好。</li>
+</ul>
+<h3 id="選寵"><a href="#選寵" class="headerlink" title="選寵"></a>選寵</h3><ul>
+<li><p>力寵</p>
+<ul>
+<li>可以扛住前排就好，不需要太多隻，除非隊伍缺乏他的功能，我好像會放 5~7 隻，供參。</li>
+<li>切記！不要帶非剋屬的，被塔噴幾下就蒸發了，一樣是在浪費礦、卡關鍵寵的召喚速度。</li>
+<li>如果很缺加速角，與關卡同屬性的還可以考慮，不過基本上也存活不了困難 500m 後的塔，除非無敵夠密集。</li>
+</ul>
+</li>
+<li><p>敏寵</p>
+<ul>
+<li>除非有優異的清怪或輔助能力，不然不能幫忙破塔，多帶多虧。</li>
+</ul>
+</li>
+<li><p>智寵</p>
+<ul>
+<li>基本上只要是剋屬就好，再搭配上方技能順位去選。</li>
+</ul>
+</li>
+</ul>
+<h3 id="裝備"><a href="#裝備" class="headerlink" title="裝備"></a>裝備</h3><p>平民的加速裝有以下：</p>
+<ul>
+<li>武器<ul>
+<li>迴旋鏢</li>
+</ul>
+</li>
+<li>防具<ul>
+<li>雲翼靴(減礦無倍體)、張飛靴&#x2F;劉備服(倍體無減礦)</li>
+</ul>
+</li>
+<li>飾品<ul>
+<li>手錶、鑰匙</li>
+</ul>
+</li>
+</ul>
+<p>武器和飾品最大跑速都有 60，防具僅有 54 <del>(雖然有聽說以前有 60 跑速的鞋子)</del></p>
+<p>基本上都是雙跑速裝以上在配，再看剩下的裝要補[體力&#x2F;攻擊&#x2F;技發&#x2F;減產]，也可以視情況三跑速裝<br>（本身素質就好的角色拿潛力去補說不定就夠了，太奢侈了我玩不起qq）</p>
+<p><strong>補充</strong>：季票有六星裝備寶箱，可以多加利用。</p>
+<h3 id="增益寵配裝"><a href="#增益寵配裝" class="headerlink" title="增益寵配裝"></a>增益寵配裝</h3><p>我基本上是［減產棒／靴／減礦腰帶］，因為當月增益本身就有減產，加上減產棒很夠了，個人認為減礦更重要。</p>
+<h3 id="道具時機"><a href="#道具時機" class="headerlink" title="道具時機"></a>道具時機</h3><blockquote>
+<p>基本上就是 <strong>拿 20 毛多試幾場就有感覺了。</strong></p>
+</blockquote>
+<p>電暈塔要特別注意，如果有抽到無敵盾，要注意目前的 Buff 還有摸塔速度，<strong>破塔寵吃到增攻大概會爆很快</strong>。<br>無敵盾很重要，我都會留到電暈塔還有後面的大範圍超痛濺射塔，保後排破塔寵。</p>
+<h3 id="心態"><a href="#心態" class="headerlink" title="心態"></a>心態</h3><p>秉持著想跑更遠、想進步的心態，<strong>多觀察、多嘗試、多思考</strong></p>
+<p>雖然理論上只要照著我說的做就可以有不錯的成績，<br>但每個人擁有的角色、裝備資源都不一樣，說不定有一套更適合自己的跑法。<br>推薦大家可以常常思考：</p>
+<ul>
+<li><strong>如果我把這個寵拿掉呢 會怎麼樣？</strong></li>
+<li><strong>他有沒有更適合的裝備組合？</strong></li>
+<li><strong>為什麼我的極限就在這裡，少了什麼？</strong></li>
+</ul>
+<p>示範：</p>
+<ul>
+<li>寵都會被噴死 ⭢ 爆塔不夠快？無敵不夠密集？ ⭢ 調整隊伍</li>
+</ul>
+<h2 id="常見-Q-A"><a href="#常見-Q-A" class="headerlink" title="常見 Q&amp;A"></a>常見 Q&amp;A</h2><p>歡迎大家提問～ 可能會被放在這裡唷&gt;&lt;</p>
+<blockquote>
+<p>Ｑ：裝備配那麼多跑速，攻擊力會不夠破塔吧！？<br>Ａ：不會，記得用剋屬智寵配上增攻輔助技能就很夠了！</p>
+</blockquote>
 
         </div>
 
@@ -416,7 +551,7 @@
             <ul class="post-tags-box">
                 
                     <li class="tag-item">
-                        <a href="/tags/SNMG/">#SNMG</a>&nbsp;
+                        <a href="/tags/Line-Rangers/">#Line Rangers</a>&nbsp;
                     </li>
                 
             </ul>
@@ -427,29 +562,14 @@
         
             <div class="article-nav">
                 
-                    <div class="article-prev">
-                        <a class="prev"
-                        rel="prev"
-                        href="/2024/01/01/hamachi-note/"
-                        >
-                            <span class="left arrow-icon flex-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex-center">
-                                <span class="post-nav-title-item">Hamachi VPN狀態 – 網路卡錯誤 無法存取同儕</span>
-                                <span class="post-nav-item">Prev posts</span>
-                            </span>
-                        </a>
-                    </div>
-                
                 
                     <div class="article-next">
                         <a class="next"
                         rel="next"
-                        href="/2023/10/18/DNS-Open-Resolver/"
+                        href="/2024/01/01/hamachi4linux/"
                         >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">DNS Open Resolver 弱點處理</span>
+                                <span class="post-nav-title-item">在 Linux Server 上架設簡單的 VPN – Hamachi for Linux </span>
                                 <span class="post-nav-item">Next posts</span>
                             </span>
                             <span class="right arrow-icon flex-center">
@@ -470,8 +590,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">免費 Windows CA 自動化工具 – Certify The Web</div>
-        
+        <div class="page-title">【攻略】Line Rangers 跑跑活動關卡懶人包 | 新手必看教學 | 高分技巧分享</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%8D%E8%B2%AC%E8%81%B2%E6%98%8E"><span class="nav-text">免責聲明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E7%AF%84%E5%BD%B1%E7%89%87"><span class="nav-text">示範影片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9A%8A%E4%BC%8D%E8%88%87%E6%88%90%E7%B8%BE%E5%8F%83%E8%80%83"><span class="nav-text">隊伍與成績參考</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%88%E5%82%99%E8%A7%80%E5%BF%B5"><span class="nav-text">先備觀念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%AC%E6%80%A7%EF%BC%88%E9%9D%9E%E5%B8%B8%E9%87%8D%E8%A6%81%EF%BC%81%EF%BC%89"><span class="nav-text">屬性（非常重要！）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%A3%E5%BA%A6%E5%8A%A0%E4%B9%98"><span class="nav-text">難度加乘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%95%B6%E6%9C%88%E5%A2%9E%E7%9B%8A"><span class="nav-text">當月增益</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ranger-%E5%8A%9F%E8%83%BD%E5%AE%9A%E4%BD%8D"><span class="nav-text">Ranger 功能定位</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%99%BA%E6%85%A7%E5%AF%B5%E7%88%86%E5%A1%94"><span class="nav-text">智慧寵爆塔</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5"><span class="nav-text">核心概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%AB%98%E5%88%86%E6%8A%80%E5%B7%A7"><span class="nav-text">高分技巧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%92%E8%89%B2%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E6%94%BE%E6%BB%BF"><span class="nav-text">角色不一定要放滿</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%B8%E8%A7%92%E6%AF%94%E4%BE%8B"><span class="nav-text">選角比例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ranger-%E6%8A%80%E8%83%BD%E9%81%B8%E7%94%A8%E9%A0%86%E4%BD%8D"><span class="nav-text">Ranger 技能選用順位</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%B8%E5%AF%B5"><span class="nav-text">選寵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A3%9D%E5%82%99"><span class="nav-text">裝備</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A2%9E%E7%9B%8A%E5%AF%B5%E9%85%8D%E8%A3%9D"><span class="nav-text">增益寵配裝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%93%E5%85%B7%E6%99%82%E6%A9%9F"><span class="nav-text">道具時機</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%83%E6%85%8B"><span class="nav-text">心態</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E8%A6%8B-Q-A"><span class="nav-text">常見 Q&amp;A</span></a></li></ol>
 
     </div>
 </div>
