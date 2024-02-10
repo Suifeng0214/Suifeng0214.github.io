@@ -131,13 +131,6 @@
   </url>
   
   <url>
-    <loc>https://suifeng0214.github.io/tags/pip-crash/</loc>
-    <lastmod>2024-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://suifeng0214.github.io/tags/Power-Shell/</loc>
     <lastmod>2024-02-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -146,6 +139,13 @@
   
   <url>
     <loc>https://suifeng0214.github.io/tags/hexo/</loc>
+    <lastmod>2024-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://suifeng0214.github.io/tags/pip-crash/</loc>
     <lastmod>2024-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
