@@ -19,18 +19,22 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="背景：我也不知道為什麼會發生這個問題，是這樣的，我在內網架了服務，為了在外也可以連進來，用 HA 當 VPN，家裡放 Server，在外用筆電。在筆電上的 HA 建立網路，讓我的 Server 當 HA Clinet 連到我筆電建立的網路，讓它們在同一個區網。然後就這樣放著，有一天就突然不能連過去了，用筆電去檢查一下〝同儕〞發現 VPN 狀態是三角形（對 Client 右鍵-&gt;詳細資訊-&amp;">
+        <meta name="description" content="突然發現連不過去，用筆電檢查一下〝同儕〞發現 VPN 狀態是三角形，顯示網路卡錯誤 無法透過 VPN 存取同儕（對 Client 右鍵 -&gt; 詳細資訊 -&gt; 同儕屬性 -&gt; 設定）。 我自己是打開裝置管理員，在網路介面卡會看到 hamachi 網卡有警示標示，隨便按了更新驅動-&gt;自動搜尋，它就跳出問我要不要重新啟動電腦，然後重新啟動完就正常了OAO?!  後來再次發生一次同">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hamachi VPN狀態 – 網路卡錯誤 無法存取同儕">
 <meta property="og:url" content="https://suifeng0214.github.io/2024/01/01/hamachi-note/">
 <meta property="og:site_name" content="Suifeng0214&#39;s Blog">
-<meta property="og:description" content="背景：我也不知道為什麼會發生這個問題，是這樣的，我在內網架了服務，為了在外也可以連進來，用 HA 當 VPN，家裡放 Server，在外用筆電。在筆電上的 HA 建立網路，讓我的 Server 當 HA Clinet 連到我筆電建立的網路，讓它們在同一個區網。然後就這樣放著，有一天就突然不能連過去了，用筆電去檢查一下〝同儕〞發現 VPN 狀態是三角形（對 Client 右鍵-&gt;詳細資訊-&amp;">
+<meta property="og:description" content="突然發現連不過去，用筆電檢查一下〝同儕〞發現 VPN 狀態是三角形，顯示網路卡錯誤 無法透過 VPN 存取同儕（對 Client 右鍵 -&gt; 詳細資訊 -&gt; 同儕屬性 -&gt; 設定）。 我自己是打開裝置管理員，在網路介面卡會看到 hamachi 網卡有警示標示，隨便按了更新驅動-&gt;自動搜尋，它就跳出問我要不要重新啟動電腦，然後重新啟動完就正常了OAO?!  後來再次發生一次同">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://suifeng0214.github.io/images/pasted-2.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/pasted-3.png">
+<meta property="og:image" content="https://suifeng0214.github.io/images/pasted-4.png">
 <meta property="article:published_time" content="2024-01-01T08:12:00.000Z">
-<meta property="article:modified_time" content="2024-02-03T07:33:07.298Z">
+<meta property="article:modified_time" content="2024-02-24T06:43:04.335Z">
 <meta property="article:author" content="Suifeng0214">
 <meta property="article:tag" content="Hamachi">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://suifeng0214.github.io/images/pasted-2.png">
     
     
     <!--- Icon Part-->
@@ -357,8 +361,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-02-03 15:33:07</span>
-            <span class="mobile">2024-02-03 15:33:07</span>
+            <span class="desktop">2024-02-24 14:43:04</span>
+            <span class="mobile">2024-02-24 14:43:04</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -405,10 +409,25 @@
         
 
         <div class="article-content markdown-body">
-            <blockquote>
-<p>背景：我也不知道為什麼會發生這個問題，是這樣的，我在內網架了服務，為了在外也可以連進來，用 HA 當 VPN，家裡放 Server，在外用筆電。在筆電上的 HA 建立網路，讓我的 Server 當 HA Clinet 連到我筆電建立的網路，讓它們在同一個區網。然後就這樣放著，有一天就突然不能連過去了，用筆電去檢查一下〝同儕〞發現 VPN 狀態是三角形（對 Client 右鍵-&gt;詳細資訊-&gt;同儕屬性-&gt;設定），顯示網路卡錯誤 無法存取同儕。</p>
-</blockquote>
-<p>我自己是打開裝置管理員會看到 hamachi 網卡有警示標示，隨便按了更新驅動-&gt;自動搜尋，它就跳出問我要不要重新啟動電腦，然後重新啟動完就正常了OAO?!</p>
+            <p>突然發現連不過去，用筆電檢查一下〝同儕〞發現 VPN 狀態是三角形，顯示網路卡錯誤 無法透過 VPN 存取同儕（對 Client 右鍵 -&gt; 詳細資訊 -&gt; 同儕屬性 -&gt; 設定）。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/pasted-2.png"
+                      alt="upload successful"
+                ></p>
+<p>我自己是打開裝置管理員，在<strong>網路介面卡</strong>會看到 hamachi 網卡有警示標示，隨便按了更新驅動-&gt;自動搜尋，它就跳出問我要不要重新啟動電腦，然後重新啟動完就正常了OAO?!</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/pasted-3.png"
+                      alt="upload successful"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/pasted-4.png"
+                      alt="upload successful"
+                ><br>後來再次發生一次同樣問題，發現對 hamachi 網卡點兩下就會看到他叫你<strong>重新啟動電腦</strong>了。</p>
 
         </div>
 
