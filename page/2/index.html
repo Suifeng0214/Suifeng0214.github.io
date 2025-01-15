@@ -328,11 +328,11 @@
                 </div>
                 <div class="statistics">
 					<a class="item" href="/archives">
-                        <div class="number">21</div>
+                        <div class="number">23</div>
                         <div class="label">Posts</div>
                     </a>
                     <a class="item" href="/tags">
-                        <div class="number">23</div>
+                        <div class="number">26</div>
                         <div class="label">Tags</div>
                     </a>
                     <a class="item" href="/categories">
@@ -401,6 +401,140 @@
                 
                     <div class="home-content-container">
     <ul class="home-article-list">
+        
+            <li class="home-article-item">
+
+                
+
+                
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2024/07/03/PVE-no-subscription/">
+                        PVE 啟用非訂閱源 (no-subscription)
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        啟用非訂閱源12vim /etc/apt/sources.list+deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
+禁用 Enterprise Repos...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Wed Jul 03 2024 20:47:00 GMT+0800">
+                
+                    2024-07-03
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E7%B4%80%E9%8C%84/">日常紀錄</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Proxmox-VE/">Proxmox VE</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2024/07/03/PVE-no-subscription/">Read more<span class="seo-reader-text">PVE 啟用非訂閱源 (no-subscription)</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2024/04/16/PVE-Server-usbdisk-backup/">
+                        PVE Server 掛 USB 硬碟備份
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        
+備註：凡「日常紀錄」系列皆為筆記文，內容僅供參考，非技術教學文。
+
+1234$ mkdir /mnt/usb$ dmesg | tail # 查看系統日誌，偵測新插入的裝置$ lsblk # 查看系統中已連接設備$ mount /dev/sda1 ...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Tue Apr 16 2024 13:29:00 GMT+0800">
+                
+                    2024-04-16
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category">
+                <i class="fa-solid fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E7%B4%80%E9%8C%84/">日常紀錄</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Proxmox-VE/">Proxmox VE</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2024/04/16/PVE-Server-usbdisk-backup/">Read more<span class="seo-reader-text">PVE Server 掛 USB 硬碟備份</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
         
             <li class="home-article-item">
 
@@ -905,146 +1039,6 @@
 
             </li>
         
-            <li class="home-article-item">
-
-                
-
-                
-                
-
-                <h3 class="home-article-title">
-                    <a href="/2023/09/17/powershell-execution-policy-restricted/">
-                        因為這個系統上已停用指令碼執行，所以無法載入… Powershell-execution-policy-restricted
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        又是突然要用 hexo s 發現奇怪的 error… 
-
-hexo : 因為這個系統上已停用指令碼執行，所以無法載入…
-
-明明沒有改什麼設定壓！！爬文都只找到 set-executionpolicy remotesigned 結果卻得到 Window...
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Sun Sep 17 2023 14:50:00 GMT+0800">
-                
-                    2023-09-17
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/%E5%90%84%E7%A8%AE%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87/">各種疑難雜症</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/Power-Shell/">Power Shell</a>&nbsp;
-                        </li>
-                    
-                        <li>
-                            | 
-                            <a href="/tags/hexo/">hexo</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/2023/09/17/powershell-execution-policy-restricted/">Read more<span class="seo-reader-text">因為這個系統上已停用指令碼執行，所以無法載入… Powershell-execution-policy-restricted</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                
-
-                <h3 class="home-article-title">
-                    <a href="/2023/09/13/pip-crash/">
-                        pip-crash: importerror: cannot import name &#39;html5lib&#39; from &#39;pip._vendor
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        有一天我在 pip install 時突然就爛了，噴了一堆 error QQ這是其中一行 importerror: cannot import name &#39;html5lib&#39; from &#39;pip._vendor
-一開始直接問 ...
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Sep 13 2023 14:33:00 GMT+0800">
-                
-                    2023-09-13
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/%E5%90%84%E7%A8%AE%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87/">各種疑難雜症</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/pip-crash/">pip-crash</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/2023/09/13/pip-crash/">Read more<span class="seo-reader-text">pip-crash: importerror: cannot import name &#39;html5lib&#39; from &#39;pip._vendor</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
     </ul>
 
     <div class="home-paginator">
@@ -1078,7 +1072,7 @@ hexo : 因為這個系統上已停用指令碼執行，所以無法載入…
               <span>2023</span>
               -
             
-            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Suifeng0214</a>
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Suifeng0214</a>
         </div>		
 		
         

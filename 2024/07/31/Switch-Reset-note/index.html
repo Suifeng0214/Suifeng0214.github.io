@@ -19,15 +19,15 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="最近在練習把各種廠牌的 Switch 重設，所以來筆記一下有碰到的機型 IBM - SMC 8024L2過程搜尋關鍵字 「SMC 8024L2 manual」，在手冊裡面的 Troubleshooting 章節就有了～ 重置步驟 Remove the power cord from the back of the Switch. Remove all cables from the front-p">
+        <meta name="description" content="最近在練習把各種廠牌的 Switch 重設，所以來筆記一下有碰到的機型 HP 6125G Blade Switch Console Bit Rate 9600 bps  有 system-view 和 user-view 兩種模式先在 user-view： 12$ reset saved-configuration$ reboot  系統提示是否保存當前配置時，要輸入 N（No），以免保留舊配置。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Switch Reset note">
 <meta property="og:url" content="https://suifeng0214.github.io/2024/07/31/Switch-Reset-note/">
 <meta property="og:site_name" content="Suifeng0214&#39;s Blog">
-<meta property="og:description" content="最近在練習把各種廠牌的 Switch 重設，所以來筆記一下有碰到的機型 IBM - SMC 8024L2過程搜尋關鍵字 「SMC 8024L2 manual」，在手冊裡面的 Troubleshooting 章節就有了～ 重置步驟 Remove the power cord from the back of the Switch. Remove all cables from the front-p">
+<meta property="og:description" content="最近在練習把各種廠牌的 Switch 重設，所以來筆記一下有碰到的機型 HP 6125G Blade Switch Console Bit Rate 9600 bps  有 system-view 和 user-view 兩種模式先在 user-view： 12$ reset saved-configuration$ reboot  系統提示是否保存當前配置時，要輸入 N（No），以免保留舊配置。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-07-31T01:33:00.000Z">
-<meta property="article:modified_time" content="2024-10-07T11:08:19.633Z">
+<meta property="article:modified_time" content="2025-01-15T17:50:16.837Z">
 <meta property="article:author" content="Suifeng0214">
 <meta property="article:tag" content="SNMG">
 <meta property="article:tag" content="Switch">
@@ -358,8 +358,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-10-07 19:08:19</span>
-            <span class="mobile">2024-10-07 19:08:19</span>
+            <span class="desktop">2025-01-16 01:50:16</span>
+            <span class="mobile">2025-01-16 01:50:16</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -411,6 +411,15 @@
 
         <div class="article-content markdown-body">
             <p>最近在練習把各種廠牌的 Switch 重設，所以來筆記一下有碰到的機型</p>
+<h2 id="HP-6125G-Blade-Switch"><a href="#HP-6125G-Blade-Switch" class="headerlink" title="HP 6125G Blade Switch"></a>HP 6125G Blade Switch</h2><blockquote>
+<p>Console Bit Rate 9600 bps</p>
+</blockquote>
+<p>有 system-view 和 user-view 兩種模式<br>先在 user-view：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ reset saved-configuration</span><br><span class="line">$ reboot </span><br></pre></td></tr></table></figure></div>
+<p>系統提示是否保存當前配置時，要輸入 N（No），以免保留舊配置。</p>
+<p>重啟後，進入 system-view 模式進行配置。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ system-view <span class="comment"># 進入 system-view 模式</span></span><br><span class="line">$ ip http <span class="built_in">enable</span> <span class="comment"># 啟用 HTTP（Web 管理）功能：</span></span><br><span class="line">$ local-user admin <span class="comment"># 創建用戶</span></span><br><span class="line">$ password simple &lt;passwd&gt; <span class="comment"># 配置用戶密碼</span></span><br><span class="line">$ service-type http https telnet ssh <span class="comment"># 允許用戶透過協議訪問設備</span></span><br><span class="line">$ authorization-attribute level 3 <span class="comment"># 給予用戶最高操作權限</span></span><br><span class="line">$ save</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 其他指令</span></span><br><span class="line">$ display ip interface brief</span><br><span class="line">$ display current-configuration</span><br></pre></td></tr></table></figure></div>
 <h2 id="IBM-SMC-8024L2"><a href="#IBM-SMC-8024L2" class="headerlink" title="IBM - SMC 8024L2"></a>IBM - SMC 8024L2</h2><h3 id="過程"><a href="#過程" class="headerlink" title="過程"></a>過程</h3><p>搜尋關鍵字 「SMC 8024L2 manual」，在手冊裡面的 Troubleshooting 章節就有了～</p>
 <h3 id="重置步驟"><a href="#重置步驟" class="headerlink" title="重置步驟"></a>重置步驟</h3><ol>
 <li>Remove the power cord from the back of the Switch.</li>
@@ -494,7 +503,7 @@
     <div class="post-toc">
         <div class="toc-title">On this page</div>
         <div class="page-title">Switch Reset note</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#IBM-SMC-8024L2"><span class="nav-text">IBM - SMC 8024L2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%8E%E7%A8%8B"><span class="nav-text">過程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E7%BD%AE%E6%AD%A5%E9%A9%9F"><span class="nav-text">重置步驟</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-text">後記</span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#HP-6125G-Blade-Switch"><span class="nav-text">HP 6125G Blade Switch</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IBM-SMC-8024L2"><span class="nav-text">IBM - SMC 8024L2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%8E%E7%A8%8B"><span class="nav-text">過程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E7%BD%AE%E6%AD%A5%E9%A9%9F"><span class="nav-text">重置步驟</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-text">後記</span></a></li></ol></li></ol>
 
     </div>
 </div>
@@ -526,7 +535,7 @@
               <span>2023</span>
               -
             
-            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Suifeng0214</a>
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Suifeng0214</a>
         </div>		
 		
         
