@@ -14,20 +14,23 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://suifeng0214.github.io/archives/2024/"/>
+    <link rel="canonical" href="https://suifeng0214.github.io/2025/05/30/docker-image-optimization/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="Hi~ 我是隨風，目前在中央大學資工系就讀，大二開始在系上擔任網管，有一些競程經驗但還是對資訊安全比較有興趣。我喜歡追求自由、渴望變強，這就是我 :D">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Suifeng0214&#39;s Blog">
-<meta property="og:url" content="https://suifeng0214.github.io/archives/2024/">
+        <meta name="description" content="Docker image 的大小對於持續整合&#x2F;持續部署（CI&#x2F;CD）流水線的效率、傳輸和存儲成本以及部署速度都有著重要的影響。有許多技巧可以幫助優化 Docker image 的大小： 多階段構建 (Multi-Stage Build)多階段構建 是一種在同一個 Dockerfile 中使用多個階段的方式。這個方法可以讓你在構建階段使用包含構建工具的重型映像檔，而在最終的生產階">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Docker image 大小優化筆記">
+<meta property="og:url" content="https://suifeng0214.github.io/2025/05/30/docker-image-optimization/">
 <meta property="og:site_name" content="Suifeng0214&#39;s Blog">
-<meta property="og:description" content="Hi~ 我是隨風，目前在中央大學資工系就讀，大二開始在系上擔任網管，有一些競程經驗但還是對資訊安全比較有興趣。我喜歡追求自由、渴望變強，這就是我 :D">
+<meta property="og:description" content="Docker image 的大小對於持續整合&#x2F;持續部署（CI&#x2F;CD）流水線的效率、傳輸和存儲成本以及部署速度都有著重要的影響。有許多技巧可以幫助優化 Docker image 的大小： 多階段構建 (Multi-Stage Build)多階段構建 是一種在同一個 Dockerfile 中使用多個階段的方式。這個方法可以讓你在構建階段使用包含構建工具的重型映像檔，而在最終的生產階">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-05-29T20:15:00.000Z">
+<meta property="article:modified_time" content="2025-05-29T20:57:56.462Z">
 <meta property="article:author" content="Suifeng0214">
-<meta property="article:tag" content="Suifeng0214">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="CI&#x2F;CD">
 <meta name="twitter:card" content="summary">
     
     
@@ -40,7 +43,7 @@
     
     <title>
         
-            Archive: 2024 |
+            Docker image 大小優化筆記 |
         
         Suifeng0214&#39;s Blog
     </title>
@@ -166,7 +169,7 @@
                         
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active" 
+                                <a class="" 
                                     href="/archives/"  >
                                     
                                         
@@ -260,7 +263,7 @@
             
                 
                     <li class="drawer-navbar-item flex-center">
-                        <a class="active" 
+                        <a class="" 
                         href="/archives/"  >
                              
                                 
@@ -321,199 +324,176 @@
             <div class="main-content">
 
                 
-                    <div class="archive-container ">
-    
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2025</span>
-                <span class="archive-year-post-count">[5]</span>
+                    <div class="post-page-container">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            
+                <h1 class="article-title-regular">Docker image 大小優化筆記</h1>
+            
             </div>
-            <ul class="article-list">
-              
-              <li class="article-item" date-is='05-30'>
-                <a href="/2025/05/30/docker-image-optimization/">
-                  <span class="article-title">Docker image 大小優化筆記</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='05-30'>
-                <a href="/2025/05/30/pnpm/">
-                  <span class="article-title">認識 pnpm</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='02-26'>
-                <a href="/2025/02/26/TrueNAS-Core-Note/">
-                  <span class="article-title">TrueNAS-Core 筆記</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='01-15'>
-                <a href="/2025/01/15/PVE-NFS-setup/">
-                  <span class="article-title">PVE 掛接網路儲存伺服器(NFS)</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='01-15'>
-                <a href="/2025/01/15/Synology-NAS-iSCSI-LUN-Setting/">
-                  <span class="article-title">Synology NAS iSCSI LUN 設置</span>
-                </a>
-              </li>
-              
-            </ul>
-        </section>
+            
+                    
+        
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Suifeng0214</span>
+                        
+                            <span class="author-label">Lv3</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-05-30 04:15</span>
+        <span class="mobile">2025-05-30 04:15</span>
+        <span class="hover-info">Created</span>
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2024</span>
-                <span class="archive-year-post-count">[16]</span>
-            </div>
-            <ul class="article-list">
-              
-              <li class="article-item" date-is='12-26'>
-                <a href="/2024/12/26/GoBetter/">
-                  <span class="article-title">期末反思與未來的承諾</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='11-16'>
-                <a href="/2024/11/16/AEGIS-Final-2024/">
-                  <span class="article-title">【AEGIS Final 2024】心得文</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='11-04'>
-                <a href="/2024/11/04/CGGC-2024/">
-                  <span class="article-title">【CGGC 2024】Preview Site Write-up</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='10-25'>
-                <a href="/2024/10/25/xuperman_powerplay_x/">
-                  <span class="article-title">【隨風】Xuperman POWERPLAY-X 使用心得</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='10-18'>
-                <a href="/2024/10/18/CISCO-N3K-config-log/">
-                  <span class="article-title">CISCO N3K config log</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='08-20'>
-                <a href="/2024/08/20/ZhongliFavorites/">
-                  <span class="article-title">風の食｜平鎮中壢美食口袋名單</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='07-31'>
-                <a href="/2024/07/31/Switch-Reset-note/">
-                  <span class="article-title">Switch Reset note</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='07-20'>
-                <a href="/2024/07/20/20240720/">
-                  <span class="article-title">日常 debug 紀錄 - HTML Section magic?</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='07-03'>
-                <a href="/2024/07/03/PVE-no-subscription/">
-                  <span class="article-title">PVE 啟用非訂閱源 (no-subscription)</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='04-16'>
-                <a href="/2024/04/16/PVE-Server-usbdisk-backup/">
-                  <span class="article-title">PVE Server 掛 USB 硬碟備份</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='03-31'>
-                <a href="/2024/03/31/my-first-wireguard/">
-                  <span class="article-title">第一次架 Wireguard 實戰紀錄</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='03-16'>
-                <a href="/2024/03/16/Memory-ballooning-on-Windows-Proxmox-VE/">
-                  <span class="article-title">Memory ballooning on Windows | Proxmox VE</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='03-09'>
-                <a href="/2024/03/09/ZhongliRamen/">
-                  <span class="article-title">桃園中壢拉麵推薦</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='02-09'>
-                <a href="/2024/02/09/LineRangersRunningRaceTutorial/">
-                  <span class="article-title">【攻略】Line Rangers 跑跑活動關卡懶人包 ｜ 新手必看跑跑教學｜平民高分技巧分享</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='01-01'>
-                <a href="/2024/01/01/hamachi4linux/">
-                  <span class="article-title">在 Linux Server 上架設簡單的 VPN – Hamachi for Linux </span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='01-01'>
-                <a href="/2024/01/01/hamachi-note/">
-                  <span class="article-title">Hamachi VPN狀態 – 網路卡錯誤 無法存取同儕</span>
-                </a>
-              </li>
-              
-            </ul>
-        </section>
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2025-05-30 04:57:56</span>
+            <span class="mobile">2025-05-30 04:57:56</span>
+            <span class="hover-info">Updated</span>
+        </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2023</span>
-                <span class="archive-year-post-count">[5]</span>
-            </div>
-            <ul class="article-list">
-              
-              <li class="article-item" date-is='10-19'>
-                <a href="/2023/10/19/Certify-The-Web-Windows-CA/">
-                  <span class="article-title">免費 Windows CA 自動化工具 – Certify The Web</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='10-18'>
-                <a href="/2023/10/18/DNS-Open-Resolver/">
-                  <span class="article-title">DNS Open Resolver 弱點處理</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='09-17'>
-                <a href="/2023/09/17/powershell-execution-policy-restricted/">
-                  <span class="article-title">因為這個系統上已停用指令碼執行，所以無法載入… Powershell-execution-policy-restricted</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='09-13'>
-                <a href="/2023/09/13/pip-crash/">
-                  <span class="article-title">pip-crash: importerror: cannot import name &#39;html5lib&#39; from &#39;pip._vendor</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='09-04'>
-                <a href="/2023/09/04/one-piece-title/">
-                  <span class="article-title">海賊王(航海王) 各集數標題</span>
-                </a>
-              </li>
-              
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E7%AD%86%E8%A8%98/">筆記</a>&nbsp;
+                        </li>
+                    
+                    
+                
             </ul>
-        </section>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Docker/">Docker</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/CI-CD/">CI/CD</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <p>Docker image 的大小對於持續整合&#x2F;持續部署（CI&#x2F;CD）流水線的效率、傳輸和存儲成本以及部署速度都有著重要的影響。<br>有許多技巧可以幫助優化 Docker image 的大小：</p>
+<h3 id="多階段構建-Multi-Stage-Build"><a href="#多階段構建-Multi-Stage-Build" class="headerlink" title="多階段構建 (Multi-Stage Build)"></a>多階段構建 (Multi-Stage Build)</h3><p>多階段構建 是一種在同一個 Dockerfile 中使用多個階段的方式。<br>這個方法可以讓你在構建階段使用包含構建工具的重型映像檔，而<strong>在最終的生產階段只保留必要的可執行文件或構建產物。</strong></p>
+<p>具體優點：</p>
+<ul>
+<li><strong>分離構建和運行環境</strong>：<br>你可以使用較大的映像檔來進行構建（比如帶有編譯工具的完整 Node.js 或 Java 環境），並在最終的生產環境中使用最小的映像檔（如 alpine 或 slim 版）。</li>
+<li><strong>只保留必要文件</strong>：<br>構建完成後，只需<strong>將必要的文件</strong>（如編譯後的二進制文件、HTML、CSS 或 JS 文件）<strong>從構建階段複製到生產階段</strong>，避免了包含不必要的中間文件、編譯器和開發依賴。</li>
+</ul>
+<h3 id="選擇輕量級映像檔"><a href="#選擇輕量級映像檔" class="headerlink" title="選擇輕量級映像檔"></a>選擇輕量級映像檔</h3><p>如：</p>
+<ul>
+<li>alpine</li>
+<li>slim</li>
+<li>Scratch</li>
+</ul>
+<h3 id="dockerignore"><a href="#dockerignore" class="headerlink" title=".dockerignore"></a>.dockerignore</h3><p>類似 .gitignore 的效果。<br>通常不需要在映像檔中包含的文件：</p>
+<blockquote>
+<p>node_modules<br>    *.log<br>    .git<br>    Dockerfile<br>    README.md</p>
+</blockquote>
+<h3 id="多個命令合併成一個步驟"><a href="#多個命令合併成一個步驟" class="headerlink" title="多個命令合併成一個步驟"></a>多個命令合併成一個步驟</h3><p>每一個 Dockerfile 的指令都會創建一層（layer），這些層構成了 Docker 映像檔。<br>因此，將多個操作合併到一個步驟中可以減少生成的層數，減少映像檔大小。</p>
+<p>例如，這樣的構建方式：<br>    <div class="highlight-container" data-rel="Dockerfile"><figure class="iseeu highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get update</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get install -y build-essential</span></span><br><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get clean</span></span><br></pre></td></tr></table></figure></div><br>可以合併成一行來減少映像檔大小：</p>
+<div class="highlight-container" data-rel="Dockerfile"><figure class="iseeu highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get update &amp;&amp; apt-get install -y build-essential &amp;&amp; apt-get clean</span></span><br></pre></td></tr></table></figure></div>
+<h3 id="選擇正確的套件管理工具"><a href="#選擇正確的套件管理工具" class="headerlink" title="選擇正確的套件管理工具"></a>選擇正確的套件管理工具</h3><p>有些套件管理工具（如 pnpm）在處理依賴時更加節省空間。相較於 npm 或 yarn，pnpm 使用硬連結來管理依賴，可以減少空間佔用。這些工具對於減少映像檔大小特別有幫助。</p>
+<h3 id="清理套件管理器暫存"><a href="#清理套件管理器暫存" class="headerlink" title="清理套件管理器暫存"></a>清理套件管理器暫存</h3><p>使用 apt-get 安裝套件後，應該清理暫存：</p>
+<div class="highlight-container" data-rel="Dockerfile"><figure class="iseeu highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">RUN</span><span class="language-bash"> apt-get update &amp;&amp; apt-get install -y [package-name] \</span></span><br><span class="line"><span class="language-bash">      &amp;&amp; <span class="built_in">rm</span> -rf /var/lib/apt/lists/*</span></span><br></pre></td></tr></table></figure></div>
+        </div>
+
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/Docker/">#Docker</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/CI-CD/">#CI/CD</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                        rel="next"
+                        href="/2025/05/30/pnpm/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">認識 pnpm</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">Docker image 大小優化筆記</div>
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E9%9A%8E%E6%AE%B5%E6%A7%8B%E5%BB%BA-Multi-Stage-Build"><span class="nav-text">多階段構建 (Multi-Stage Build)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%B8%E6%93%87%E8%BC%95%E9%87%8F%E7%B4%9A%E6%98%A0%E5%83%8F%E6%AA%94"><span class="nav-text">選擇輕量級映像檔</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#dockerignore"><span class="nav-text">.dockerignore</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E5%80%8B%E5%91%BD%E4%BB%A4%E5%90%88%E4%BD%B5%E6%88%90%E4%B8%80%E5%80%8B%E6%AD%A5%E9%A9%9F"><span class="nav-text">多個命令合併成一個步驟</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%B8%E6%93%87%E6%AD%A3%E7%A2%BA%E7%9A%84%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7"><span class="nav-text">選擇正確的套件管理工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%85%E7%90%86%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8%E6%9A%AB%E5%AD%98"><span class="nav-text">清理套件管理器暫存</span></a></li></ol>
+
+    </div>
 </div>
+        </div>
+    
+</div>
+
+
 
                 
 
@@ -577,6 +557,23 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
